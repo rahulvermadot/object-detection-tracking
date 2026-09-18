@@ -1,0 +1,12 @@
+# Ultralytics bundles YOLO (YOLOv8 by default here) behind a simple,
+# well-documented Python API -- this is what does the actual detection.
+# Any Ultralytics-compatible .pt weights file can be dropped in via
+# src/config.py's MODEL_PATH (yolov8n/s/m/l/x, yolo11n, yolo26n, etc.).
+ultralytics==8.4.53
+
+# Use opencv-python for local runs with a live preview window (cv2.imshow).
+# On a headless server/CI with no display, swap this for
+# opencv-python-headless==4.13.0.92 and always pass --no-display.
+opencv-python==4.13.0.92
+
+numpy==2.4.6
